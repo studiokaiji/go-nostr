@@ -33,8 +33,6 @@ func NewSimplePool(ctx context.Context) *SimplePool {
 func (pool *SimplePool) EnsureRelay(url string) (*Relay, error) {
 	nm := NormalizeURL(url)
 
-	defer namedLock(url)()
-
 	relay, ok := pool.Relays[nm]
 	if ok && relay.IsConnected() {
 		// already connected, unlock and return

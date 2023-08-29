@@ -22,6 +22,7 @@ func namedLock(name string) (unlock func()) {
 		namedMutexPool[idx].Lock()
 		return namedMutexPool[idx].Unlock
 	*/
+	return func() {}
 }
 
 func similar[E constraints.Ordered](as, bs []E) bool {

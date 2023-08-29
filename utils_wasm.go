@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dgraph-io/ristretto/z"
+	// "github.com/dgraph-io/ristretto/z"
 	"golang.org/x/exp/constraints"
 )
 
@@ -17,9 +17,11 @@ const MAX_LOCKS = 50
 var namedMutexPool = make([]sync.Mutex, MAX_LOCKS)
 
 func namedLock(name string) (unlock func()) {
-	idx := z.MemHashString(name) % MAX_LOCKS
-	namedMutexPool[idx].Lock()
-	return namedMutexPool[idx].Unlock
+	/*
+		idx := z.MemHashString(name) % MAX_LOCKS
+		namedMutexPool[idx].Lock()
+		return namedMutexPool[idx].Unlock
+	*/
 }
 
 func similar[E constraints.Ordered](as, bs []E) bool {

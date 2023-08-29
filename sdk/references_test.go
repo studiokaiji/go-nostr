@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/nbd-wtf/go-nostr"
+	"github.com/studiokaiji/go-nostr"
 )
 
 func TestParseReferences(t *testing.T) {

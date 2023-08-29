@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/nbd-wtf/go-nostr"
+	"github.com/studiokaiji/go-nostr"
 )
 
 func TestBasicNsonParse(t *testing.T) {

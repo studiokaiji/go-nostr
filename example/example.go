@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nbd-wtf/go-nostr"
-	"github.com/nbd-wtf/go-nostr/nip19"
+	"github.com/studiokaiji/go-nostr"
+	"github.com/studiokaiji/go-nostr/nip19"
 )
 
 func main() {

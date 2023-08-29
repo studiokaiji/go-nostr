@@ -1,4 +1,4 @@
-module github.com/nbd-wtf/go-nostr
+module github.com/studiokaiji/go-nostr
 
 go 1.20
 

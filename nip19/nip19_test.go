@@ -3,7 +3,7 @@ package nip19
 import (
 	"testing"
 
-	"github.com/nbd-wtf/go-nostr"
+	"github.com/studiokaiji/go-nostr"
 )
 
 func TestEncodeNpub(t *testing.T) {

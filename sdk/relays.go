@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/nbd-wtf/go-nostr"
+	"github.com/studiokaiji/go-nostr"
 )
 
 type Relay struct {

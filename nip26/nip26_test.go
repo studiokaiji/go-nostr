@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nbd-wtf/go-nostr"
+	"github.com/studiokaiji/go-nostr"
 )
 
 func TestDelegateSign(t *testing.T) {

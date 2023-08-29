@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/nbd-wtf/go-nostr"
+	"github.com/studiokaiji/go-nostr"
 )
 
 /*

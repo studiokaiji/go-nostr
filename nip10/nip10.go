@@ -1,6 +1,6 @@
 package nip10
 
-import "github.com/nbd-wtf/go-nostr"
+import "github.com/studiokaiji/go-nostr"
 
 func GetThreadRoot(tags nostr.Tags) *nostr.Tag {
 	for _, tag := range tags {
